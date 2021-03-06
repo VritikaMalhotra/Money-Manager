@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logic.LogScreen"
+    android:background="#ccf0de">
+
+    <Button
+        android:id="@+id/buttonCheckLogs"
+        android:layout_width="219dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="141dp"
+        android:background="@drawable/button_logs"
+        android:text="Check Logs"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonClearLogs"
+        android:layout_width="219dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="151dp"
+        android:background="@drawable/button_logs"
+        android:text="Clear Logs"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCheckLogs" />
+</androidx.constraintlayout.widget.ConstraintLayout>

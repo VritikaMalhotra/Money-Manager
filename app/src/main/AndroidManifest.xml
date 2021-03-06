@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moneymanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Logic.changeExpense"></activity>
+        <activity android:name=".Logic.changeIncome" />
+        <activity android:name=".Logic.MakeEntryExpenditure" />
+        <activity android:name=".Logic.PurposeExpenditure" />
+        <activity android:name=".Logic.DateExpenditure" />
+        <activity android:name=".Logic.ChooseEntry" />
+        <activity android:name=".Logic.CheckLogs" />
+        <activity android:name=".Logic.LogScreen" />
+        <activity android:name=".Logic.MakeEntryIncome" />
+        <activity android:name=".Logic.AmmountSpentExpenditure" />
+        <activity android:name=".Logic.AmmountReceivedIncome" />
+        <activity android:name=".Logic.PurposeIncome" />
+        <activity android:name=".Logic.DateIncome" />
+        <activity android:name=".Logic.Display" />
+        <activity android:name=".Session.SignUp" />
+        <activity android:name=".Session.SignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
